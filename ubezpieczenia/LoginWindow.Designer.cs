@@ -44,7 +44,7 @@ namespace ubezpieczenia
             this.passwordLabel.BackColor = System.Drawing.Color.Transparent;
             this.passwordLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.passwordLabel.Location = new System.Drawing.Point(165, 208);
+            this.passwordLabel.Location = new System.Drawing.Point(175, 212);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(89, 31);
             this.passwordLabel.TabIndex = 1;
@@ -54,7 +54,7 @@ namespace ubezpieczenia
             // 
             this.loginInput.BackColor = System.Drawing.Color.White;
             this.loginInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.loginInput.Location = new System.Drawing.Point(272, 138);
+            this.loginInput.Location = new System.Drawing.Point(282, 142);
             this.loginInput.Name = "loginInput";
             this.loginInput.Size = new System.Drawing.Size(200, 38);
             this.loginInput.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace ubezpieczenia
             // 
             this.passwordInput.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.passwordInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.passwordInput.Location = new System.Drawing.Point(272, 205);
+            this.passwordInput.Location = new System.Drawing.Point(282, 209);
             this.passwordInput.Name = "passwordInput";
             this.passwordInput.Size = new System.Drawing.Size(200, 38);
             this.passwordInput.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace ubezpieczenia
             this.loginLabel.BackColor = System.Drawing.Color.Transparent;
             this.loginLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.loginLabel.Location = new System.Drawing.Point(165, 141);
+            this.loginLabel.Location = new System.Drawing.Point(175, 145);
             this.loginLabel.Name = "loginLabel";
             this.loginLabel.Size = new System.Drawing.Size(85, 31);
             this.loginLabel.TabIndex = 8;
@@ -96,7 +96,7 @@ namespace ubezpieczenia
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.loginButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.loginButton.Location = new System.Drawing.Point(308, 270);
+            this.loginButton.Location = new System.Drawing.Point(318, 274);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(124, 39);
             this.loginButton.TabIndex = 3;

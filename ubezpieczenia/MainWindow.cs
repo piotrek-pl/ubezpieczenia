@@ -29,6 +29,7 @@ namespace ubezpieczenia
 
         private void MainWindow_FormClosed(object sender, FormClosedEventArgs e)
         {
+            LoginWindow.connection.Close();
             Application.OpenForms["loginWindow"].Close();
         }
 
