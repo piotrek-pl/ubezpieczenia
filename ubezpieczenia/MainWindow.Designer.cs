@@ -449,7 +449,7 @@ namespace ubezpieczenia
             // searchButton
             // 
             this.searchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.searchButton.Location = new System.Drawing.Point(558, 49);
+            this.searchButton.Location = new System.Drawing.Point(558, 48);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(86, 25);
             this.searchButton.TabIndex = 17;
@@ -469,9 +469,9 @@ namespace ubezpieczenia
             // 
             this.pictureBoxMainWindow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxMainWindow.Image = global::ubezpieczenia.Properties.Resources.mountain_car;
-            this.pictureBoxMainWindow.Location = new System.Drawing.Point(0, 103);
+            this.pictureBoxMainWindow.Location = new System.Drawing.Point(0, 0);
             this.pictureBoxMainWindow.Name = "pictureBoxMainWindow";
-            this.pictureBoxMainWindow.Size = new System.Drawing.Size(679, 361);
+            this.pictureBoxMainWindow.Size = new System.Drawing.Size(679, 464);
             this.pictureBoxMainWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBoxMainWindow.TabIndex = 8;
             this.pictureBoxMainWindow.TabStop = false;
@@ -481,11 +481,11 @@ namespace ubezpieczenia
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 464);
-            this.Controls.Add(this.pictureBoxMainWindow);
             this.Controls.Add(this.searchPanel);
             this.Controls.Add(this.addAgentPanel);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.addClientPanel);
+            this.Controls.Add(this.pictureBoxMainWindow);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
