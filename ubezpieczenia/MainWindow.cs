@@ -163,6 +163,7 @@ namespace ubezpieczenia
         private void searchClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             addClientPanel.Visible = false;
+            addAgentPanel.Visible = false;
             searchPanel.Visible = true;
             activeItem = Item.Client;
             searchTextBox.Text = "";
